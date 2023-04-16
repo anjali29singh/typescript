@@ -63,11 +63,3 @@ const user3: Required<{ username; id; email }> = {
   email: "abcd@gmail.ac.in",
 };
 console.log(user3);
-
-//Readonly  cannot assign value to that property
-
-const user4: Readonly<{ account }> = {
-  username: "anshuman",
-  id: 3456710,
-  email: "anshuman@gmail.ac.in",
-};
